@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.viewfunction</groupId>
     <artifactId>docg_platformAdmin</artifactId>
-    <name>Project base for Spring Boot and Vaadin Flow</name>
+    <name>DOCG Platform Admin Console Application</name>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
