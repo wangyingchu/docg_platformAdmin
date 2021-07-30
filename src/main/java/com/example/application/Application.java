@@ -12,7 +12,7 @@ import org.vaadin.artur.helpers.LaunchUtil;
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        //
+        // entry to launch web application
         LaunchUtil.launchBrowserInDevelopmentMode(SpringApplication.run(Application.class, args));
     }
 
