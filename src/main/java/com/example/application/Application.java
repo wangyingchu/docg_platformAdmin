@@ -12,7 +12,7 @@ import org.vaadin.artur.helpers.LaunchUtil;
 public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        // Entry to launch DOCG Platform Admin web application
+        // Entry to launch DOCG Platform Admin application
         LaunchUtil.launchBrowserInDevelopmentMode(SpringApplication.run(Application.class, args));
     }
 
