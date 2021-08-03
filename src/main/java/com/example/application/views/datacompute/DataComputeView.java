@@ -20,7 +20,7 @@ import com.vaadin.flow.component.dependency.JsModule;
  * or otherwise change this file.
  */
 @Route(value = "data-compute", layout = MainLayout.class)
-@PageTitle("Data Compute")
+@PageTitle("Data Compute [数据计算]")
 @Tag("data-compute-view")
 @JsModule("./views/datacompute/data-compute-view.ts")
 public class DataComputeView extends LitTemplate {

@@ -21,7 +21,7 @@ import com.vaadin.flow.component.dependency.JsModule;
 
 @Route(value = "general-info", layout = MainLayout.class)
 @RouteAlias(value = "", layout = MainLayout.class)
-@PageTitle("General Information")
+@PageTitle("General Information [概览]")
 @Tag("general-information-view")
 @JsModule("./views/generalinformation/general-information-view.ts")
 public class GeneralInformationView extends LitTemplate implements HasStyle {

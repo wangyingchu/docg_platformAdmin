@@ -28,7 +28,7 @@ import com.vaadin.flow.component.dependency.JsModule;
  * or otherwise change this file.
  */
 @Route(value = "core-realm", layout = MainLayout.class)
-@PageTitle("Core Realm")
+@PageTitle("Core Realm [核心领域模型]")
 @Tag("core-realm-view")
 @JsModule("./views/corerealm/core-realm-view.ts")
 public class CoreRealmView extends LitTemplate implements AfterNavigationObserver {

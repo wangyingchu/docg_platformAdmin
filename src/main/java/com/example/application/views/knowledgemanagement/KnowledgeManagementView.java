@@ -32,7 +32,7 @@ import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.component.datepicker.DatePicker;
 
 @Route(value = "knowledge-management/:samplePersonID?/:action?(edit)", layout = MainLayout.class)
-@PageTitle("Knowledge Management")
+@PageTitle("Knowledge Management [知识管理]")
 @Tag("knowledge-management-view")
 @JsModule("./views/knowledgemanagement/knowledge-management-view.ts")
 public class KnowledgeManagementView extends LitTemplate implements HasStyle, BeforeEnterObserver {

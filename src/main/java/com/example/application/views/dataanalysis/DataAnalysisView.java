@@ -29,7 +29,7 @@ import com.vaadin.flow.component.Component;
  * or otherwise change this file.
  */
 @Route(value = "data-analysis", layout = MainLayout.class)
-@PageTitle("Data Analysis")
+@PageTitle("Data Analysis [数据分析]")
 @Tag("data-analysis-view")
 @JsModule("./views/dataanalysis/data-analysis-view.ts")
 public class DataAnalysisView extends LitTemplate {
