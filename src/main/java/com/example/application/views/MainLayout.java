@@ -90,7 +90,8 @@ public class MainLayout extends AppLayout {
         return new Tab[]{createTab("General Information", GeneralInformationView.class),
                 createTab("Core Realm", CoreRealmView.class), createTab("Data Compute", DataComputeView.class),
                 createTab("Data Analysis", DataAnalysisView.class),
-                createTab("Knowledge Management", KnowledgeManagementView.class)};
+                createTab("Knowledge Management", KnowledgeManagementView.class),
+                createTab("Knowledge Management2", KnowledgeManagementView.class)};
     }
 
     private static Tab createTab(String text, Class<? extends Component> navigationTarget) {
